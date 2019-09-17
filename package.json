@@ -1,0 +1,16 @@
+{
+	"name": "cloudflare-public-ip",
+	"version": "1.0.0",
+	"description": "Container to periodically update public IP address with a Cloudflare DNS record",
+	"main": "src/index.js",
+	"repository": "git@github.com:null93/cloudflare-public-ip.git",
+	"author": "Rafael Grigorian <me@raffi.io>",
+	"license": "MIT",
+	"dependencies": {
+		"cloudflare": "^2.6.0",
+		"public-ip": "^3.2.0"
+	},
+	"scripts": {
+		"start": "node src/index.js"
+	}
+}
